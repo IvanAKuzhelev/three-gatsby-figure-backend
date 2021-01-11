@@ -29,16 +29,16 @@ function fnc(x, y, z) {
       //bottom
       4, 0, 1,
       1, 7, 4,
-      // //top
+      //top
       6, 2, 3,
       3, 5, 6,
       //left-side
       3, 0, 4,
       4, 5, 3,
-      // //right-side
+      //right-side
       6, 7, 1,
       1, 2, 6,
-      // //back
+      //back
       5, 4, 7,
       7, 6, 5
     ],
