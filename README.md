@@ -1,5 +1,5 @@
-# Express backend of the box visualisation app
+# Express backend of the cone visualisation app
 
 Hosted on VM behind NGINX on Azure
 
-Frontend: https://github.com/IvanAKuzhelev/box-server-fe
+Frontend and implementation comments: https://github.com/IvanAKuzhelev/three-gatsby-figure
