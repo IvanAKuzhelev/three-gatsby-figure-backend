@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require("cors");
-const drawValuesCalculator = require("./drawValuesCalculator");
+const CalculateTriangulation = require("./calculator/drawValuesCalculator");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 7777;
 
 app.use(express.json());
 app.use(cors());
@@ -17,5 +17,11 @@ app.listen(port, () => {
 
 app.post("/", function (req, res) {
   res.setHeader("Content-Type", "application/json");
-  res.send(drawValuesCalculator.fnc(req.body.x, req.body.y, req.body.z));
+  res.send(
+    CalculateTriangulation.CalculateTriangulation(
+      Number(req.body.N),
+      Number(req.body.H),
+      Number(req.body.R)
+    )
+  );
 });
