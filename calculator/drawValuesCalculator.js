@@ -13,7 +13,7 @@ const CalculateDrawValues = (N, H, R) => {
     );
   }
 
-  for (let j = 2; j < N + 1; j++) {
+  for (let j = 2; j <= N; j++) {
     indices.push(j + 1, 1, j);
     indices.push(j, 0, j + 1);
   }
