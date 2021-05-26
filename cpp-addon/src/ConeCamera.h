@@ -10,7 +10,7 @@ private:
     double far;
 
 public:
-    ConeCamera (double coneRadius=100, double coneHeight=300);
-    Napi::Object makeCameraNapiObject (Napi::Env env);
+    ConeCamera(double coneRadius = 100, double coneHeight = 300);
+    Napi::Object makeCameraNapiObject(Napi::Env env);
 };
 #endif

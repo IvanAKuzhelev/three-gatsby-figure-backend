@@ -4,8 +4,6 @@
 #include <napi.h>
 #include "ConeCamera.h"
 
-
-
 class Cone
 {
 private:
@@ -20,10 +18,10 @@ private:
     void setIndices();
     void setNormals();
     Napi::Array doubleVectorToNapiArray(Napi::Env env, std::vector<double> vec);
+
 public:
-    Cone(double H, double R, double N);
-    Napi::Object makeNapiObject (Napi::Env env);
+    Cone(double H = 100, double R = 100, double N = 100);
+    Napi::Object makeNapiObject(Napi::Env env);
 };
 
 #endif
-

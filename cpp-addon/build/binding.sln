@@ -1,23 +1,23 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(cpp-addon)", "..\projects\three-gatsby-figure-backend\cpp-addon", "{4D215362-AEA8-D1BE-7491-F4255EAD1219}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(code projects)", "..\code projects", "{363A9458-FBED-11CE-4A50-1C66EAEE9DFB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\projects\three-gatsby-figure-backend\cpp-addon\node_modules\node-addon-api", "{82DEB0CB-AB50-B5E1-1C6C-AB4D23DAA1BC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(cpp-addon)", "..\code projects\three-gatsby-figure-backend\cpp-addon", "{D0B2FE72-6FCE-D91D-5C76-7E3F26397C52}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\projects\three-gatsby-figure-backend\cpp-addon\node_modules", "{20D0D807-6559-4144-5073-FFE13F80B5C7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\code projects\three-gatsby-figure-backend\cpp-addon\node_modules\node-addon-api", "{FE28CF8E-C0E8-601E-46C6-5B2AE0E7FFF1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(projects)", "..\projects", "{0B7A99EB-C945-C56E-7268-9E343E0FCD0D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\code projects\three-gatsby-figure-backend\cpp-addon\node_modules", "{C839AABE-C5C2-2A87-285E-C8FE150445D8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\projects\three-gatsby-figure-backend\cpp-addon\node_modules\node-addon-api\src", "{A934F535-2CA5-E867-86CA-7990C68586D3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\code projects\three-gatsby-figure-backend\cpp-addon\node_modules\node-addon-api\src", "{CF76AB16-EE7A-386A-EDF9-03DB7BCC9A4C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(three-gatsby-figure-backend)", "..\projects\three-gatsby-figure-backend", "{CC6ACE84-F3FC-E116-66F9-AA67F04C6A8D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(three-gatsby-figure-backend)", "..\code projects\three-gatsby-figure-backend", "{705CB2FD-9150-7680-B7E1-31F2C81A28EA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp-addon-native", "cpp-addon-native.vcxproj", "{FDE89EB3-9DDE-1DFB-D3AE-E9ADB1F5E7B6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp-addon-native", "cpp-addon-native.vcxproj", "{95971C60-3681-2A63-FBE7-34149C19426D}"
 	ProjectSection(ProjectDependencies) = postProject
-		{B0BD779C-0219-B6BF-E43B-1A9106BDD902} = {B0BD779C-0219-B6BF-E43B-1A9106BDD902}
+		{A67E93EC-7579-3AD5-2EAC-6A9C2A5F693E} = {A67E93EC-7579-3AD5-2EAC-6A9C2A5F693E}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{B0BD779C-0219-B6BF-E43B-1A9106BDD902}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{A67E93EC-7579-3AD5-2EAC-6A9C2A5F693E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,24 +25,24 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0BD779C-0219-B6BF-E43B-1A9106BDD902}.Debug|x64.ActiveCfg = Debug|x64
-		{B0BD779C-0219-B6BF-E43B-1A9106BDD902}.Debug|x64.Build.0 = Debug|x64
-		{B0BD779C-0219-B6BF-E43B-1A9106BDD902}.Release|x64.ActiveCfg = Release|x64
-		{B0BD779C-0219-B6BF-E43B-1A9106BDD902}.Release|x64.Build.0 = Release|x64
-		{FDE89EB3-9DDE-1DFB-D3AE-E9ADB1F5E7B6}.Debug|x64.ActiveCfg = Debug|x64
-		{FDE89EB3-9DDE-1DFB-D3AE-E9ADB1F5E7B6}.Debug|x64.Build.0 = Debug|x64
-		{FDE89EB3-9DDE-1DFB-D3AE-E9ADB1F5E7B6}.Release|x64.ActiveCfg = Release|x64
-		{FDE89EB3-9DDE-1DFB-D3AE-E9ADB1F5E7B6}.Release|x64.Build.0 = Release|x64
+		{95971C60-3681-2A63-FBE7-34149C19426D}.Debug|x64.ActiveCfg = Debug|x64
+		{95971C60-3681-2A63-FBE7-34149C19426D}.Debug|x64.Build.0 = Debug|x64
+		{95971C60-3681-2A63-FBE7-34149C19426D}.Release|x64.ActiveCfg = Release|x64
+		{95971C60-3681-2A63-FBE7-34149C19426D}.Release|x64.Build.0 = Release|x64
+		{A67E93EC-7579-3AD5-2EAC-6A9C2A5F693E}.Debug|x64.ActiveCfg = Debug|x64
+		{A67E93EC-7579-3AD5-2EAC-6A9C2A5F693E}.Debug|x64.Build.0 = Debug|x64
+		{A67E93EC-7579-3AD5-2EAC-6A9C2A5F693E}.Release|x64.ActiveCfg = Release|x64
+		{A67E93EC-7579-3AD5-2EAC-6A9C2A5F693E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{20D0D807-6559-4144-5073-FFE13F80B5C7} = {4D215362-AEA8-D1BE-7491-F4255EAD1219}
-		{A934F535-2CA5-E867-86CA-7990C68586D3} = {82DEB0CB-AB50-B5E1-1C6C-AB4D23DAA1BC}
-		{82DEB0CB-AB50-B5E1-1C6C-AB4D23DAA1BC} = {20D0D807-6559-4144-5073-FFE13F80B5C7}
-		{CC6ACE84-F3FC-E116-66F9-AA67F04C6A8D} = {0B7A99EB-C945-C56E-7268-9E343E0FCD0D}
-		{B0BD779C-0219-B6BF-E43B-1A9106BDD902} = {A934F535-2CA5-E867-86CA-7990C68586D3}
-		{4D215362-AEA8-D1BE-7491-F4255EAD1219} = {CC6ACE84-F3FC-E116-66F9-AA67F04C6A8D}
+		{705CB2FD-9150-7680-B7E1-31F2C81A28EA} = {363A9458-FBED-11CE-4A50-1C66EAEE9DFB}
+		{C839AABE-C5C2-2A87-285E-C8FE150445D8} = {D0B2FE72-6FCE-D91D-5C76-7E3F26397C52}
+		{CF76AB16-EE7A-386A-EDF9-03DB7BCC9A4C} = {FE28CF8E-C0E8-601E-46C6-5B2AE0E7FFF1}
+		{FE28CF8E-C0E8-601E-46C6-5B2AE0E7FFF1} = {C839AABE-C5C2-2A87-285E-C8FE150445D8}
+		{A67E93EC-7579-3AD5-2EAC-6A9C2A5F693E} = {CF76AB16-EE7A-386A-EDF9-03DB7BCC9A4C}
+		{D0B2FE72-6FCE-D91D-5C76-7E3F26397C52} = {705CB2FD-9150-7680-B7E1-31F2C81A28EA}
 	EndGlobalSection
 EndGlobal
