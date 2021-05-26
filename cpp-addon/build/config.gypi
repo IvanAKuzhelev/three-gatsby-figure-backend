@@ -96,7 +96,7 @@
     "cache_lock_stale": "60000",
     "cache_lock_wait": "10000",
     "cache_max": "Infinity",
-    "cache_min": "86400",
+    "cache_min": "10",
     "cert": "",
     "cidr": "",
     "color": "true",

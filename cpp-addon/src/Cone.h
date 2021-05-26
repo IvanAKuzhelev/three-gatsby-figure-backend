@@ -1,8 +1,8 @@
 #ifndef Coneh
 #define Coneh
 #include <vector>
-#include "ConeCamera.h"
 #include <napi.h>
+#include "ConeCamera.h"
 
 
 
@@ -15,11 +15,11 @@ private:
     std::vector<double> vertices;
     std::vector<double> indices;
     std::vector<double> normals;
-    СoneCamera Camera;
+    ConeCamera Camera;
     void setVertices();
     void setIndices();
     void setNormals();
-    Napi::Array doubleVectorToNapiArray(std::vector<double> vec);
+    Napi::Array doubleVectorToNapiArray(Napi::Env env, std::vector<double> vec);
 public:
     Cone(double H, double R, double N);
     Napi::Object makeNapiObject (Napi::Env env);
